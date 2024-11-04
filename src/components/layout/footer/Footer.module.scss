@@ -6,18 +6,26 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
+    gap: clamp(15px, 3vw, 30px);
+    @media screen and (max-width: 880px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
     .subs {
       display: flex;
       align-items: start;
       flex-direction: column;
-      gap: clamp(2px, 1vw, 20px);
+      gap: clamp(5px, 1vw, 20px);
       h2 {
-        font-size: clamp(8px, 3vw, 25px);
+        font-size: clamp(9px, 4vw, 25px);
         color: #fff;
-        margin-bottom: clamp(10px);
+        margin-bottom: clamp(5px, 1vw, 15px);
       }
       h3 {
-        font-size: clamp(6px, 2vw, 19px);
+        font-size: clamp(7px, 3vw, 19px);
         letter-spacing: 0.5px;
         color: #fff;
         font-weight: 600;
@@ -25,7 +33,7 @@
       p {
         width: clamp(89px, 10vw, 200px);
         line-height: clamp(18px, 7vw, 30px);
-        font-size: clamp(7px, 1vw, 16px);
+        font-size: clamp(8px, 2vw, 16px);
         color: #fff;
         font-weight: 500;
       }
@@ -56,9 +64,9 @@
       display: flex;
       align-items: start;
       flex-direction: column;
-      gap: clamp(4px, 2vw, 10px);
+      gap: clamp(3px, 4vw, 20px);
       h3 {
-        font-size: clamp(12px, 3vw, 19px);
+        font-size: clamp(7px, 3vw, 19px);
         letter-spacing: 0.5px;
         color: #fff;
         font-weight: 600;
@@ -66,24 +74,24 @@
       p {
         font-weight: 500;
         letter-spacing: 0.5px;
-        font-size: clamp(8px, 3vw, 16px);
+        font-size: clamp(8px, 2vw, 16px);
         color: #fff;
       }
     }
     .app {
       display: flex;
-      align-items: start;
+      justify-content: start;
       flex-direction: column;
-      gap: clamp(8px, 4vw, 20px);
+      gap: clamp(3px, 4vw, 20px);
       h3 {
-        font-size: clamp(12px, 3vw, 19px);
+        font-size: clamp(7px, 3vw, 19px);
         letter-spacing: 0.5px;
         color: #fff;
         font-weight: 600;
       }
       p {
         color: rgb(202, 201, 201);
-        font-size: clamp(7px, 3vw, 13px);
+        font-size: clamp(5px, 2vw, 13px);
       }
       .ustanov {
         display: flex;
@@ -91,6 +99,8 @@
         justify-content: center;
         gap: clamp(6px, 3vw, 15px);
         img {
+          width: clamp(80px, 6vw, 100px);
+          height: auto;
           background: #fff;
         }
         .down {
@@ -98,14 +108,14 @@
           align-items: start;
           justify-content: center;
           flex-direction: column;
-          gap: clamp(3px, 2vw, 10px);
+          gap: clamp(2px, 3vw, 10px);
           .apple {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: clamp(3px, 2vw, 10px);
-            width: clamp(80px, 20vw, 128px);
-            height: clamp(20px, 10vw, 43px);
+            width: clamp(120px, 20vw, 128px);
+            height: clamp(20px, 9vw, 43px);
             border: 1px solid gray;
             border-radius: clamp(3px, 3vw, 8px);
             span {
@@ -114,7 +124,7 @@
                 font-size: clamp(15px, 5vw, 30px);
               }
             }
-            .app {
+            .ap {
               display: flex;
               flex-direction: column;
               gap: 5px;
@@ -133,12 +143,14 @@
             align-items: center;
             justify-content: center;
             gap: clamp(3px, 2vw, 10px);
-            width: clamp(80px, 20vw, 128px);
-            height: clamp(20px, 10vw, 43px);
+            width: clamp(120px, 20vw, 128px);
+            height: clamp(20px, 9vw, 43px);
             border: 1px solid gray;
             border-radius: clamp(3px, 3vw, 8px);
             img {
               background: none;
+              width: clamp(15px, 5vw, 30px);
+              height: auto;
             }
             .play {
               display: flex;
@@ -160,7 +172,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: clamp(20px, 14vw, 40px);
+        gap: clamp(30px, 8vw, 40px);
         span {
           svg {
             font-size: clamp(15px, 7vw, 29px);
@@ -170,4 +182,14 @@
       }
     }
   }
+}
+
+.two {
+  display: flex;
+  gap: 70px;
+}
+
+.two1 {
+  display: flex;
+  gap: 90px;
 }
