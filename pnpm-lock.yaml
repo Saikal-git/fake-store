@@ -9,7 +9,6 @@ importers:
   .:
     dependencies:
       '@reduxjs/toolkit':
-      
         specifier: ^2.2.8
         version: 2.3.0(react-redux@9.1.2(@types/react@18.3.12)(react@18.3.1)(redux@5.0.1))(react@18.3.1)
       axios:
@@ -18,7 +17,6 @@ importers:
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
-
       next:
         specifier: 14.2.15
         version: 14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.6)
@@ -1655,19 +1653,15 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.4.1
     optional: true
 
-
-  '@reduxjs/toolkit@2.3.0(react@19.0.0-rc-02c0e824-20241028)':
-
+  '@reduxjs/toolkit@2.3.0(react-redux@9.1.2(@types/react@18.3.12)(react@18.3.1)(redux@5.0.1))(react@18.3.1)':
     dependencies:
       immer: 10.1.1
       redux: 5.0.1
       redux-thunk: 3.1.0(redux@5.0.1)
       reselect: 5.1.1
     optionalDependencies:
-      
-      react-redux: 9.1.2(@types/react@18.3.12)(react@18.3.1)(redux@5.0.1
-      react: 19.0.0-rc-02c0e824-20241028
-
+      react: 18.3.1
+      react-redux: 9.1.2(@types/react@18.3.12)(react@18.3.1)(redux@5.0.1)
 
   '@rtsao/scc@1.1.0': {}
 
