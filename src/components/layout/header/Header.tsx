@@ -1,4 +1,3 @@
-
 "use client";
 import { FC, useEffect, useState } from "react";
 import scss from "./Header.module.scss";
