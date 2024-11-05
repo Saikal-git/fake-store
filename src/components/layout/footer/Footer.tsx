@@ -20,7 +20,7 @@ const Footer: FC = () => {
               <h3>Subscribe</h3>
               <p>Get 10% off your first order</p>
               <div className={scss.sub}>
-                <input type="text" />
+                <input type="text" placeholder="Enter your email" />
                 <span>
                   <VscSend />
                 </span>
