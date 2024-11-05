@@ -1,0 +1,22 @@
+.BurgerMenu {
+  .content {
+    .router {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 15px 0;
+      a {
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: white;
+        &:hover {
+          color: #db4444;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
