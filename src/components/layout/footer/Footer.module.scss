@@ -1,0 +1,195 @@
+.Footer {
+  padding: 50px 0;
+  height: 100%;
+  background: black;
+  .content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: clamp(15px, 3vw, 30px);
+    @media screen and (max-width: 880px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .subs {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: clamp(5px, 1vw, 20px);
+      h2 {
+        font-size: clamp(9px, 4vw, 25px);
+        color: #fff;
+        margin-bottom: clamp(5px, 1vw, 15px);
+      }
+      h3 {
+        font-size: clamp(7px, 3vw, 19px);
+        letter-spacing: 0.5px;
+        color: #fff;
+        font-weight: 600;
+      }
+      p {
+        width: clamp(89px, 10vw, 200px);
+        line-height: clamp(18px, 7vw, 30px);
+        font-size: clamp(8px, 2vw, 16px);
+        color: #fff;
+        font-weight: 500;
+      }
+      .sub {
+        width: clamp(80px, 18vw, 200px);
+        height: clamp(8px, 6vw, 38px);
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(2px, 1vw, 10px);
+        span {
+          color: #fff;
+          font-size: clamp(10px, 3vw, 25px);
+        }
+        input {
+          width: clamp(58px, 8vw, 190px);
+          font-size: clamp(6px, 2vw, 14px);
+          border: none;
+          outline: none;
+          padding: 0 clamp(3px, 1vw, 10px);
+          background: black;
+          color: #fff;
+        }
+      }
+    }
+    .account {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: clamp(3px, 4vw, 20px);
+      h3 {
+        font-size: clamp(7px, 3vw, 19px);
+        letter-spacing: 0.5px;
+        color: #fff;
+        font-weight: 600;
+      }
+      p {
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        font-size: clamp(8px, 2vw, 16px);
+        color: #fff;
+      }
+    }
+    .app {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      gap: clamp(3px, 4vw, 20px);
+      h3 {
+        font-size: clamp(7px, 3vw, 19px);
+        letter-spacing: 0.5px;
+        color: #fff;
+        font-weight: 600;
+      }
+      p {
+        color: rgb(202, 201, 201);
+        font-size: clamp(5px, 2vw, 13px);
+      }
+      .ustanov {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(6px, 3vw, 15px);
+        img {
+          width: clamp(80px, 6vw, 100px);
+          height: auto;
+          background: #fff;
+        }
+        .down {
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          flex-direction: column;
+          gap: clamp(2px, 3vw, 10px);
+          .apple {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(3px, 2vw, 10px);
+            width: clamp(120px, 20vw, 128px);
+            height: clamp(20px, 9vw, 43px);
+            border: 1px solid gray;
+            border-radius: clamp(3px, 3vw, 8px);
+            span {
+              svg {
+                color: #fff;
+                font-size: clamp(15px, 5vw, 30px);
+              }
+            }
+            .ap {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              p {
+                color: #fff;
+                font-size: clamp(6px, 2vw, 11px);
+              }
+              h2 {
+                color: #fff;
+                font-size: clamp(7px, 2vw, 14px);
+              }
+            }
+          }
+          .me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: clamp(3px, 2vw, 10px);
+            width: clamp(120px, 20vw, 128px);
+            height: clamp(20px, 9vw, 43px);
+            border: 1px solid gray;
+            border-radius: clamp(3px, 3vw, 8px);
+            img {
+              background: none;
+              width: clamp(15px, 5vw, 30px);
+              height: auto;
+            }
+            .play {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              p {
+                color: #fff;
+                font-size: clamp(6px, 2vw, 11px);
+              }
+              h2 {
+                color: #fff;
+                font-size: clamp(7px, 2vw, 14px);
+              }
+            }
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(30px, 8vw, 40px);
+        span {
+          svg {
+            font-size: clamp(15px, 7vw, 29px);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.two {
+  display: flex;
+  gap: 70px;
+}
+
+.two1 {
+  display: flex;
+  gap: 90px;
+}
