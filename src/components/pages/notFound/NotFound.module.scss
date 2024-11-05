@@ -1,0 +1,33 @@
+.NotFound {
+  .content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: clamp(15px, 5vw, 30px);
+
+    h1 {
+      font-weight: 500;
+      font-size: clamp(30px, 10vw, 110px);
+    }
+    p {
+      font-weight: 400;
+      font-size: clamp(8px, 3vw, 16px);
+      margin-bottom: clamp(20px, 10vw, 60px);
+    }
+    button {
+      width: clamp(100px, 30vw, 250px);
+      height: clamp(20px, 10vw, 55px);
+      background: rgb(219, 68, 68);
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      font-size: clamp(8px, 3vw, 16px);
+      font-weight: 400;
+    }
+    a {
+      color: #fff;
+    }
+  }
+}
