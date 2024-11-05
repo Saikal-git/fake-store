@@ -7,6 +7,7 @@ import Image from "next/image";
 import { PiAppleLogoFill } from "react-icons/pi";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { TfiTwitter } from "react-icons/tfi";
+import Link from "next/link";
 
 const Footer: FC = () => {
   return (
@@ -36,7 +37,10 @@ const Footer: FC = () => {
             <div className={scss.account}>
               <h3>Account</h3>
               <p>My Account</p>
-              <p>Login / Register</p>
+              <p>
+                <Link href="/sign-in">Login </Link> /
+                <Link href="/sign-up"> Register</Link>
+              </p>
               <p>Cart</p>
               <p>Shop</p>
             </div>

@@ -1,4 +1,3 @@
-import LayoutSite from "@/components/layout/LayoutSite";
 import React, { FC, ReactNode } from "react";
 
 interface LayoutClientType {
@@ -6,7 +5,7 @@ interface LayoutClientType {
 }
 
 const LayoutClient: FC<LayoutClientType> = ({ children }) => {
-  return <LayoutSite>{children}</LayoutSite>;
+  return <>{children}</>;
 };
 
 export default LayoutClient;
