@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const NotFoundPage: FC = () => {
   return (
-    <section className={scss.NotFound}>
+    <section className={scss.NotFoundPage}>
       <div className="container">
         <div className={scss.content}>
           <h1>404 Not Found</h1>
