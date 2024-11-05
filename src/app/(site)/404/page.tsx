@@ -1,4 +1,4 @@
-import NotFound from "@/components/pages/notFound/NotFound";
+import NotFound from "@/components/pages/notFound/NotFoundPage";
 import React from "react";
 
 const page = () => <NotFound />;

@@ -1,3 +1,4 @@
+"use client";
 import React, { FC, ReactNode } from "react";
 import scss from "./LayoutSite.module.scss";
 import Header from "./header/Header";
