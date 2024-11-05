@@ -1,5 +1,7 @@
 "use client";
+
 import { FC, ReactNode, useEffect, useState } from "react";
+
 import scss from "./LayoutSite.module.scss";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
