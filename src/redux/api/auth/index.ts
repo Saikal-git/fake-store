@@ -18,7 +18,50 @@ const api = index.injectEndpoints({
       }),
       invalidatesTags: ["auth"],
     }),
+    getMe: build.query<AUTH.GetMeResponse, AUTH.GetMeRequest>({
+      query: () => ({
+        url: "/auth/user",
+        method: "GET",
+      }),
+      providesTags: ["auth"],
+    }),
+
+    updataProfile: build.mutation<AUTH.EditResponse, AUTH.EditRequest>({
+      query: (data) => ({
+        url: "/auth/update-profile",
+        method: "PATCH",
+        body: data,
+      }),
+      invalidatesTags: ["auth"],
+    }),
+
+    forgotProfile: build.mutation<AUTH.ForgotResponse, AUTH.ForgotRequest>({
+      query: (data) => ({
+        url: "/auth/forgot",
+        method: "POST",
+        body: data,
+      }),
+      invalidatesTags: ["auth"],
+    }),
+    resetPassword: build.mutation<
+      AUTH.ResetPasswordResponse,
+      AUTH.ResetPasswordRequest
+    >({
+      query: (data) => ({
+        url: "/auth/reset-password",
+        method: "PATCH",
+        body: data,
+      }),
+      invalidatesTags: ["auth"],
+    }),
   }),
 });
 
-export const { useSignInMutation, useSignUpMutation } = api;
+export const {
+  useGetMeQuery,
+  useSignInMutation,
+  useSignUpMutation,
+  useUpdataProfileMutation,
+  useForgotProfileMutation,
+  useResetPasswordMutation,
+} = api;

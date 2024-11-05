@@ -4,4 +4,16 @@ namespace AUTH {
 
   type SignUpResponse = SignUpRes;
   type SignUpRequest = SignUpReq;
+
+  type GetMeResponse = GetMeRes;
+  type GetMeRequest = void;
+
+  type EditResponse = void;
+  type EditRequest = UploadPfofileReq;
+
+  type ForgotResponse = ForgotResponse;
+  type ForgotRequest = ForgotRequest;
+
+  type ResetPasswordResponse = ResPasswordResponse;
+  type ResetPasswordRequest = ResPasswordRequest;
 }
