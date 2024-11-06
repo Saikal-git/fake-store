@@ -1,9 +1,12 @@
 .LayoutSite {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
-    footer {
-        margin-top: auto;
-    }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  main {
+    padding: 80px 0;
+  }
+  footer {
+    margin-top: auto;
+  }
 }
