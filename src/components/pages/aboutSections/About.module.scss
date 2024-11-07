@@ -1,112 +1,56 @@
 .About {
-  padding: 0 50px;
-
+  padding: 100px 0;
   .content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 80px;
-
+    padding-top: 20px;
     .about_content {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      margin-top: 70px;
+      align-items: center;
+      position: relative;
 
-      .title {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
-        h1 {
-          color: rgb(0, 0, 0);
-          font-size: 44px;
-          font-weight: 600;
-          line-height: 64px;
-          letter-spacing: 6%;
-        }
-
-        span {
-          color: rgb(0, 0, 0);
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 26px;
-          letter-spacing: 0%;
-        }
-      }
-
- 
-    }
-  }
-
-  .grid_content {
-    .grid {
-      display: flex;
-      justify-content: space-evenly;
-
-      .column {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      @media (max-width: 400px) {
         flex-direction: column;
         text-align: center;
-        cursor: pointer;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        width: 220px;
-        height: 180px;
-        padding: 20px;
-        background-color: #fff;
-        box-sizing: border-box;
-        border: 1px solid rgba(0, 0, 0, 0.3);
-        border-radius: 4px;
-        transition: transform 0.3s ease;
+      }
 
-        &:hover {
-          transform: translateY(-5px);
+      .text {
+        h1 {
+          font-size: clamp(30px, 3vw, 54px);
+          font-weight: 600;
+          letter-spacing: 0.06em;
+          font-family: Inter;
+
+          @media (max-width: 400px) {
+            font-size: 32px;
+          }
         }
 
-        button {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 60px;
-          height: 60px;
-          border-radius: 50%;
-          background: black;
-          box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #ffffff;
-          margin-bottom: 15px;
-          font-size: 28px;
-          color: #fff;
-        }
-
-        h3 {
-          font-size: 18px;
-          font-weight: bold;
-          color: #000;
-          margin-bottom: 10px;
-        }
-
-        span {
-          color: rgb(0, 0, 0);
-          font-size: 16px;
+        p {
+          font-family: Poppins;
+          line-height: 1.5;
           font-weight: 400;
-          line-height: 24px;
-          letter-spacing: 0%;
+          width: clamp(150px, 41vw, 500px);
+          margin-top: 15px;
+          font-size: clamp(8px, 2vw, 17px);
+          letter-spacing: 0.05em;
+
+          @media (max-width: 400px) {
+            width: 100%;
+            font-size: 15px;
+          }
         }
       }
 
-      .active {
-        background-color: rgb(219, 68, 68);
-        transition: background-color 0.3s ease;
-        h3,
-        span {
-          color: #fff;
+      .aboutImage {
+        img {
+          width: clamp(200px, 50vw, 580px);
+          height: clamp(250px, 45vw, 450px);
+          @media (max-width: 400px) {
+            width: 100%;
+            height: auto;
+          }
         }
       }
     }
-  }
-  .comerce {
-    margin-top: 100px;
   }
 }

@@ -1,0 +1,158 @@
+.Active {
+  margin-top: 70px;
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(20px, 3vw, 50px);
+    .ActiveBlock {
+      width: clamp(165px, 20vw, 250px);
+      height: clamp(65px, 20vw, 230px);
+      border-radius: 4px;
+      border: 1px solid #0000004d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(1px, 1.2vw, 17px);
+      padding: clamp(7px, 1.2vw, 20px);
+      .image {
+        width: clamp(25px, 7vw, 120px);
+        height: clamp(25px, 7vw, 80px);
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: clamp(11px, 2.2vw, 30px);
+        line-height: 20px;
+        letter-spacing: 4%;
+        font-family: Inter;
+        position: relative;
+      }
+
+      p {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: clamp(4px, 1.2vw, 28px);
+      }
+      &:hover {
+        cursor: pointer;
+        background: rgb(192, 53, 53);
+        color: white;
+      }
+    }
+
+    .ProductBlock {
+      width: clamp(165px, 20vw, 250px);
+      height: clamp(65px, 20vw, 230px);
+      border-radius: 4px;
+      border: 1px solid #0000004d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(1px, 1.2vw, 17px);
+      padding: clamp(7px, 1.2vw, 20px);
+      .image {
+        width: clamp(25px, 7vw, 120px);
+        height: clamp(25px, 7vw, 80px);
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: clamp(11px, 2.3vw, 30px);
+        line-height: 20px;
+        letter-spacing: 4%;
+        font-family: Inter;
+        position: relative;
+      }
+
+      p {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: clamp(3px, 1vw, 28px);
+      }
+      &:hover {
+        cursor: pointer;
+        background: rgb(192, 53, 53);
+        color: white;
+        border: 1px solid rgb(192, 53, 53);
+      }
+    }
+
+    .SiteBlock {
+      width: clamp(160px, 20vw, 250px);
+      width: clamp(165px, 20vw, 250px);
+      height: clamp(65px, 20vw, 230px);
+      border-radius: 4px;
+      border: 1px solid #0000004d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(1px, 1.2vw, 17px);
+      padding: clamp(7px, 1.2vw, 20px);
+      .image {
+        width: clamp(25px, 7vw, 120px);
+        height: clamp(25px, 7vw, 80px);
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: clamp(11px, 2.3vw, 30px);
+        line-height: 20px;
+        letter-spacing: 4%;
+        font-family: Inter;
+        position: relative;
+      }
+
+      p {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: clamp(3px, 1vw, 28px);
+      }
+      &:hover {
+        cursor: pointer;
+        background: rgb(192, 53, 53);
+        color: white;
+      }
+    }
+
+    .GrossBlock {
+      width: clamp(165px, 20vw, 250px);
+      height: clamp(65px, 20vw, 230px);
+      border-radius: 4px;
+      border: 1px solid #0000004d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(1px, 1.2vw, 17px);
+      padding: clamp(7px, 1.2vw, 20px);
+      .image {
+        width: clamp(25px, 7vw, 120px);
+        height: clamp(25px, 7vw, 80px);
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: clamp(11px, 2.3vw, 30px);
+        line-height: 20px;
+        letter-spacing: 4%;
+        font-family: Inter;
+        position: relative;
+      }
+
+      p {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: clamp(3px, 1vw, 28px);
+      }
+      &:hover {
+        cursor: pointer;
+        background: rgb(192, 53, 53);
+        color: white;
+      }
+    }
+  }
+}
