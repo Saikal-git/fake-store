@@ -5,16 +5,19 @@ import Active from "./Active";
 import AboutPhoto from "../../../assets/image/aboutImg.png";
 import Partners from "./Partners";
 import Services from "./Services";
+import { useRouter } from "next/navigation";
 
 const About = () => {
+  const router = useRouter();
+
   return (
     <section className={scss.About}>
       <div className="container">
-        <p>
-          {" "}
-          <span>Home</span> / About
-        </p>
         <div className={scss.content}>
+          <div className={scss.home_contact}>
+            <span onClick={() => router.push("/")}>Home </span>/
+            <span className={scss.color}> About</span>
+          </div>
           <div className={scss.about_content}>
             <div className={scss.text}>
               <h1>Our Story</h1>

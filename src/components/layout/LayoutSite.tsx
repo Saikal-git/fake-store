@@ -33,7 +33,7 @@ const LayoutSite: FC<ILayoutSiteProps> = ({ children }) => {
   return (
     <div className={scss.LayoutSite}>
       <Header />
-      <div className={scss.children}>{children}</div>
+      <main>{children}</main>
       <Footer />
     </div>
   );
