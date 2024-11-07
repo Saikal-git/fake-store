@@ -1,7 +1,20 @@
 .About {
-  padding: 100px 0;
+  // padding: 80px 0;
   .content {
     padding-top: 20px;
+    .home_contact {
+      margin-bottom: 70px;
+      font-size: 16px;
+      font-weight: 500;
+      color: grey;
+      cursor: pointer;
+      .color {
+        color: black;
+      }
+      @media (max-width: 768px) {
+        margin-bottom: 30px;
+      }
+    }
     .about_content {
       display: flex;
       justify-content: space-between;
