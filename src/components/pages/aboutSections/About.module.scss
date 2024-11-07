@@ -1,0 +1,56 @@
+.About {
+  padding: 100px 0;
+  .content {
+    padding-top: 20px;
+    .about_content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+      @media (max-width: 400px) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text {
+        h1 {
+          font-size: clamp(30px, 3vw, 54px);
+          font-weight: 600;
+          letter-spacing: 0.06em;
+          font-family: Inter;
+
+          @media (max-width: 400px) {
+            font-size: 32px;
+          }
+        }
+
+        p {
+          font-family: Poppins;
+          line-height: 1.5;
+          font-weight: 400;
+          width: clamp(150px, 41vw, 500px);
+          margin-top: 15px;
+          font-size: clamp(8px, 2vw, 17px);
+          letter-spacing: 0.05em;
+
+          @media (max-width: 400px) {
+            width: 100%;
+            font-size: 15px;
+          }
+        }
+      }
+
+      .aboutImage {
+        img {
+          width: clamp(200px, 50vw, 580px);
+          height: clamp(250px, 45vw, 450px);
+          @media (max-width: 400px) {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
