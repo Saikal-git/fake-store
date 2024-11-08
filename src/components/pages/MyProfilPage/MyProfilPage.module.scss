@@ -1,0 +1,35 @@
+.MyProfilPage {
+  .content {
+    .account {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .home {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+          font-size: 16px;
+        }
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        h3 {
+          font-size: 18px;
+          font-weight: 500;
+          color: rgb(219, 68, 68);
+        }
+      }
+    }
+  }
+}
