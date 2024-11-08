@@ -1,8 +1,4 @@
 .Footer {
-  padding: 25px 0;
-  height: 100%;
-  background: black;
-  .content {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -190,15 +186,3 @@
         }
       }
     }
-  }
-}
-
-.two {
-  display: flex;
-  gap: 70px;
-}
-
-.two1 {
-  display: flex;
-  gap: 90px;
-}
