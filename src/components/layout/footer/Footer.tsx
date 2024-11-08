@@ -28,9 +28,11 @@ const Footer: FC = () => {
             </div>
             <div className={scss.subs}>
               <h3>Support</h3>
-              <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+              <p>111 Bijoy sarani, DH 1515, Bangladesh.</p>
               <p>exclusive@gmail.com</p>
-              <p>+88015-88888-9999</p>
+              <p>
+                <Link href="tel:+996708171232">+996 708171232</Link>
+              </p>
             </div>
           </div>
           <div className={scss.two1}>
@@ -84,7 +86,9 @@ const Footer: FC = () => {
                 <TfiTwitter />
               </span>
               <span>
-                <FaInstagram />
+                <Link href="https://www.instagram.com/_shabdan.01/">
+                  <FaInstagram />
+                </Link>
               </span>
               <span>
                 <FaLinkedinIn />
