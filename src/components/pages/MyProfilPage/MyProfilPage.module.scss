@@ -1,6 +1,7 @@
 .MyProfilPage {
   .content {
     .account {
+      margin: 80px 0 100px 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -28,6 +29,33 @@
           font-size: 18px;
           font-weight: 500;
           color: rgb(219, 68, 68);
+        }
+      }
+    }
+    .last {
+      .ves {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .profil {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          gap: 12px;
+          h3 {
+            font-size: 18px;
+            font-weight: 700;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+      .edit {
+        h2 {
+          font-size: 23px;
+          font-weight: 600;
+          color: rgb(222, 83, 83);
         }
       }
     }
