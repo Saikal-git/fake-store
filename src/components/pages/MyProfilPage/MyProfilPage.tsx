@@ -20,19 +20,21 @@ const MyProfilPage: FC = () => {
             </div>
           </div>
           <div className={scss.last}>
-            <div className={scss.profil}>
-              <h3>Manage My Account</h3>
-              <p>My Profile</p>
-              <p>Address Book</p>
-              <p>My Payment Options</p>
-            </div>
-            <div className={scss.profil}>
-              <h3>My Orders</h3>
-              <p>My Returns </p>
-              <p>My Cancellations</p>
-            </div>
-            <div className={scss.profil}>
-              <h3>My Orders</h3>
+            <div className={scss.ves}>
+              <div className={scss.profil}>
+                <h3>Manage My Account</h3>
+                <p>My Profile</p>
+                <p>Address Book</p>
+                <p>My Payment Options</p>
+              </div>
+              <div className={scss.profil}>
+                <h3>My Orders</h3>
+                <p>My Returns </p>
+                <p>My Cancellations</p>
+              </div>
+              <div className={scss.profil}>
+                <h3>My Orders</h3>
+              </div>
             </div>
             <div className={scss.edit}>
               <h2>Edit Your Profile</h2>
