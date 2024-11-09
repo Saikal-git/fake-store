@@ -1,11 +1,5 @@
 import { FC } from "react";
 import scss from "./Footer.module.scss";
-import { VscSend } from "react-icons/vsc";
-import Link from "next/link";
-import { PiAppleLogoFill } from "react-icons/pi";
-import Image from "next/image";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-import { TfiTwitter } from "react-icons/tfi";
 
 const Footer: FC = () => {
   return (
