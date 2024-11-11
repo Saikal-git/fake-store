@@ -3,22 +3,18 @@ import scss from "./Welcome.module.scss";
 import { FaApple } from "react-icons/fa";
 import { TiArrowRight } from "react-icons/ti";
 import Categories from "../Categories/Categories";
-import iphone from "../.././../assets/image/iphonePhoto.png";
 import air from "../.././../assets/image/airpods-max.webp";
 import promax from "../../../assets/image/16promax.webp";
 import pro from "../../../assets/image/iphone15.webp";
 import ipad from "../../../assets/image/ipad.webp";
 import iphonepro from "../../../assets/image/iphone15pro.webp";
-import "keen-slider/keen-slider.min.css";
-
-import { useKeenSlider } from "keen-slider/react";
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Welcome = () => {
   const [photo, setPhoto] = useState(0);
-  const screen = [iphone, air, promax, pro, ipad, iphonepro];
+  const screen = [air, promax, pro, ipad, iphonepro];
   useEffect(() => {
     const interval = setInterval(() => {
       setPhoto((el) => (el + 1) % screen.length);
