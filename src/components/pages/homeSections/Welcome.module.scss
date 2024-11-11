@@ -1,0 +1,77 @@
+.Welcome {
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .welcome_content {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      padding-left: 40px;
+      width: 900px;
+
+      .content_text {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        .content_logo {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          svg {
+            width: 40px;
+            height: 40px;
+            color: white;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            margin-top: 4px;
+          }
+        }
+
+        p {
+          font-size: 35px;
+          font-weight: 600;
+          color: white;
+        }
+
+        button {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          background: transparent;
+          border: none;
+          width: 95px;
+          border-bottom: 1px solid white;
+          color: white;
+
+          svg {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+
+      .content_img {
+        // background-image: url("/assets/hero-phone..png");
+        background: black;
+        width: 510px;
+        height: 300px;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        img {
+          width: 380px;
+          height: 350px;
+        }
+      }
+    }
+  }
+}
