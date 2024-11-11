@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import scss from "./Partners.module.scss";
 import user1 from "../../../assets/image/user1.png";
 import user2 from "../../../assets/image/user2.png";
-import user3 from "../../../assets/image/user3.png";
 import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { RiLinkedinLine } from "react-icons/ri";
