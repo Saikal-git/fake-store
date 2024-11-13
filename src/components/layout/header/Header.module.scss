@@ -3,8 +3,8 @@
   position: fixed;
   width: 100%;
   z-index: 999;
-  backdrop-filter: blur(4px);
   transition: 0.4s;
+  background: white;
   &.active {
     background: #04152dfa;
     color: white;
