@@ -8,9 +8,11 @@ const HomePage = () => {
   return (
     <>
       <Welcome />
+
       <Today />
       <Music />
       <Browse />
+
     </>
   );
 };
