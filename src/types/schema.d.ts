@@ -111,3 +111,9 @@ interface GetProduct {
     updatedAt: string;
   };
 }
+
+interface UploadPfofileReq {
+  username: string;
+  photo?: string;
+  file?: string[];
+}
