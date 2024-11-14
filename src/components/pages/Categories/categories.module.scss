@@ -4,11 +4,11 @@
     .pBlock {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: clamp(8px, 1.5vw, 20px);
       margin-top: 40px;
 
       p {
-        font-size: 15px;
+        font-size: clamp(5px, 1.5vw, 15px);
         cursor: pointer;
       }
     }

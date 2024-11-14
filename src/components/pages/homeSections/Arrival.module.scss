@@ -1,0 +1,242 @@
+.arrival {
+  margin-top: 40px;
+
+  .content {
+    .today {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+
+      .box {
+        width: 20px;
+        height: 40px;
+        border-radius: 4px;
+        background: rgb(219, 68, 68);
+      }
+
+      h2 {
+        color: rgb(219, 68, 68);
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+
+    h1 {
+      font-size: 30px;
+      font-weight: 550;
+      margin-top: 18px;
+    }
+
+    .arrivalBlock {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+      position: relative;
+      // right: 20px;
+
+      .playStation {
+        position: relative;
+        max-width: 600px;
+        width: 100%;
+        height: 600px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+
+        img {
+          max-width: 511px;
+          width: 100%;
+          height: 511px;
+          object-fit: cover;
+          position: relative;
+          top: 90px;
+          z-index: 1;
+        }
+
+        h3,
+        p,
+        h5 {
+          position: relative;
+          z-index: 2;
+          margin-top: 8px;
+          cursor: pointer;
+        }
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+      h5 {
+        font-size: 14px;
+        font-weight: 490;
+      }
+
+      .women,
+      .music,
+      .gucci {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+        .text {
+          z-index: 2;
+          position: relative;
+        }
+      }
+
+      .womenBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .women {
+          max-width: 600px;
+          width: 100%;
+          height: 280px;
+          border-radius: 4px;
+          background: rgb(13, 13, 13);
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 320px;
+            height: 260px;
+            object-fit: cover;
+            position: relative;
+            left: 40px;
+            top: 10px;
+          }
+
+          .text {
+            position: relative;
+            top: 64px;
+            left: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3 {
+              letter-spacing: 1px;
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 13px;
+            }
+
+            h5 {
+              font-size: 14px;
+              font-weight: 490;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .music {
+          width: 280px;
+          height: 290px;
+          border-radius: 4px;
+          background: rgb(13, 13, 13);
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          img {
+            object-fit: cover;
+            position: relative;
+            top: 37px;
+            left: 50px;
+            z-index: 1;
+          }
+
+          .musicText {
+            z-index: 2;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            position: relative;
+            left: 30px;
+            bottom: 23px;
+            width: 200px;
+
+            h3 {
+              letter-spacing: 1px;
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 13px;
+              letter-spacing: 1px;
+            }
+
+            h5 {
+              font-size: 14px;
+              font-weight: 490;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .gucci {
+          width: 280px;
+          height: 290px;
+          border-radius: 4px;
+          background: rgb(13, 13, 13);
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          img {
+            object-fit: cover;
+            position: relative;
+            top: 37px;
+            left: 50px;
+            z-index: 1;
+          }
+
+          .gucciText {
+            z-index: 2;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            position: relative;
+            left: 30px;
+            bottom: 23px;
+            width: 200px;
+
+            h3 {
+              letter-spacing: 1px;
+              font-size: 20px;
+              width: 200px;
+            }
+
+            p {
+              font-size: 13px;
+              letter-spacing: 1px;
+              width: 200px;
+            }
+
+            h5 {
+              font-size: 14px;
+              font-weight: 490;
+              cursor: pointer;
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
