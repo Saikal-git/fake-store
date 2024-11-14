@@ -1,13 +1,9 @@
 "use client";
-
 import { FC, ReactNode, useEffect, useState } from "react";
-
 import scss from "./LayoutSite.module.scss";
-
 import { usePathname, useRouter } from "next/navigation";
-import Header from "./header/Header";
-import Footer from "./footer/Footer";
-
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 interface ILayoutSiteProps {
   children: ReactNode;
 }

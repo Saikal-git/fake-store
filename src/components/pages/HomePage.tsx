@@ -4,6 +4,7 @@ import Music from "./homeSections/Music";
 import Browse from "./homeSections/Browse";
 import Arrival from "./homeSections/Arrival";
 
+
 const HomePage = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Music />
       <Browse />
       <Arrival />
+
     </>
   );
 };
