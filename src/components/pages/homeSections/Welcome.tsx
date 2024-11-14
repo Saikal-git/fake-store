@@ -18,7 +18,7 @@ const Welcome = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setPhoto((el) => (el + 1) % screen.length);
-    }, 2000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -35,7 +35,7 @@ const Welcome = () => {
               </div>
 
               <p>
-                Up to 10% <br /> off Voucher
+                Up to 10%  off Voucher
               </p>
               <button>
                 Shop now <TiArrowRight />{" "}

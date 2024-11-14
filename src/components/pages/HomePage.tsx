@@ -2,16 +2,16 @@ import React from "react";
 import Welcome from "./homeSections/Welcome";
 import Music from "./homeSections/Music";
 import Browse from "./homeSections/Browse";
-import Today from "./homeSections/Today";
+import Arrival from "./homeSections/Arrival";
+
 
 const HomePage = () => {
   return (
     <>
       <Welcome />
-
-      <Today />
       <Music />
       <Browse />
+      <Arrival />
 
     </>
   );

@@ -2,6 +2,7 @@
   .content {
     display: flex;
     justify-content: space-between;
+    gap: clamp(10px, 2vw, 20px);
 
     .welcome_content {
       margin-top: 30px;
@@ -9,35 +10,53 @@
       align-items: center;
       justify-content: space-between;
       background-color: black;
-      padding-left: 40px;
-      width: 900px;
+      padding-left: clamp(10px, 2vw, 30px);
+      width: clamp(200px, 67vw, 900px);
+      height: clamp(190px, 30vw, 350px);
+      gap: clamp(15px, 2vw, 25px);
+
+      @media (max-width: 700px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+        width: 700px;
+      }
 
       .content_text {
         display: flex;
         flex-direction: column;
-        gap: 18px;
+        gap: clamp(7px, 2vw, 20px);
+        width: 100%;
+
+        @media (max-width: 700px) {
+          align-items: center;
+        }     
 
         .content_logo {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: clamp(5px, 1.5vw, 10px);
 
           svg {
-            width: 40px;
-            height: 40px;
+            width: clamp(18px, 3vw, 40px);
+            height: clamp(18px, 3vw, 40px);
             color: white;
           }
           p {
-            font-size: 16px;
+            font-size: clamp(6px, 2.5vw, 16px);
             font-weight: 400;
+            width: 70px;
             color: white;
             margin-top: 4px;
           }
         }
 
         p {
-          font-size: 35px;
-          font-weight: 600;
+          font-size: clamp(10px, 3.5vw, 38px);
+          width: 230px;
+          font-weight: 700;
           color: white;
         }
 
@@ -48,27 +67,42 @@
           gap: 3px;
           background: transparent;
           border: none;
-          width: 95px;
           border-bottom: 1px solid white;
           color: white;
+          width: 130px;
 
           svg {
-            width: 30px;
-            height: 30px;
+            width: clamp(13px, 3vw, 30px);
+            height: clamp(13px, 3vw, 30px);
           }
         }
       }
 
       .content_img {
         background: black;
-        width: 510px;
-        height: 300px;
-        object-fit: contain;
+        width: clamp(250px, 70vw, 540px);
+        height: clamp(150px, 23vw, 350px);
         display: flex;
         align-items: center;
+        justify-content: center;
+
+        @media (max-width: 700px) {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+
         img {
-          width: 380px;
-          height: 350px;
+          width: 100%;
+          max-width: clamp(150px, 28vw, 380px);
+          height: auto;
+
+          @media (max-width: 700px) {
+            width: 80%;
+          }
+          @media (max-width: 403px) {
+            width: 60%;
+          }
         }
       }
     }
